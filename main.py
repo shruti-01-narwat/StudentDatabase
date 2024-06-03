@@ -5,9 +5,9 @@ from gui import GUI
 def main():
     try:
         connection = mysql.connector.connect(host='localhost',
-                                             database='student_records',
-                                             user='your_username',
-                                             password='your_password')
+                                             database='studentdb',
+                                             user='root',
+                                             password='Shiv2003@#')
         if connection.is_connected():
             print("Connected to MySQL database")
 
@@ -32,7 +32,7 @@ def main():
             connection.commit()
 
             root = tk.Tk()
-            app = GUI(root, connection, cursor)
+            app = GUI(root)
             root.mainloop()
 
     except mysql.connector.Error as error:
