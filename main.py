@@ -8,7 +8,7 @@ def main():
         connection = mysql.connector.connect(host='localhost',
                                              database='studentdb',
                                              user='root',
-                                             password='Shiv2003@#')
+                                             password='********')
         if connection.is_connected():
             print("Connected to MySQL database")
 
