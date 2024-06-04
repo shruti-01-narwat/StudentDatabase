@@ -59,7 +59,7 @@ def connect_to_database():
         connection = mysql.connector.connect(host='localhost',
                                              database='studentdb',
                                              user='root',
-                                             password='Shiv2003@#')
+                                             password='********')
         return connection
     except mysql.connector.Error as error:
         print("Error:", error)
