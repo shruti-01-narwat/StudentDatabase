@@ -57,7 +57,7 @@ class GUI:
             connection = mysql.connector.connect(host='localhost',
                                                  database='studentdb',
                                                  user='root',
-                                                 password='Shiv2003@#')
+                                                 password='*********')
             cursor = connection.cursor()
 
             name = self.entry_name.get()
