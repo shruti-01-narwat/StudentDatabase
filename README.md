@@ -21,8 +21,7 @@ This project is a Student Database Management System implemented using Python an
 ## Installation
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your_username/student-database-management.git
-   cd student-database-management
+   git clone https://github.com/shruti-01-narwat/StudentDatabase
    ```
 
 2. **Install required Python packages:**
